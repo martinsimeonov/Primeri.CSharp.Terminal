@@ -17,9 +17,17 @@ namespace BoolExplore
 			bool _check01 = _ui <= _i.Length;
 			bool _check02 = _ui > 0;
 
-			Console.WriteLine ( _check01 );
-			Console.WriteLine ( _check02 );
-			Console.WriteLine ( _i [ _ui - 1] );
+			bool _exp01 = _check01 && _check02;		//Логическо и "&&"
+			bool _exp02 = _check01 || _check02;		//Логическо или "||"
+			bool _exp03 = !_check01;				//Отрицание "!"
+
+			Console.WriteLine ( "Логическо И: " + _exp01.ToString () );
+			Console.WriteLine ( "Логическо ИЛИ: " + _exp02.ToString () );
+			Console.WriteLine ("Отрицание на " + _check01.ToString () + ": " + _exp03);
+
+
+
+			//Console.WriteLine ( _i [ _ui - 1] );
 		}
 	}
 }
