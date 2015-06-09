@@ -1,1 +1,14 @@
-﻿<Properties StartupItem="TableProject\TableProject.csproj" />
+﻿<Properties StartupItem="TableProject\TableProject.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TableProject\Program.cs">
+    <Files>
+      <File FileName="Modul02\Program.cs" Line="1" Column="1" />
+      <File FileName="ReadFromCommandLine\Program.cs" Line="1" Column="1" />
+      <File FileName="TableProject\Program.cs" Line="32" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
