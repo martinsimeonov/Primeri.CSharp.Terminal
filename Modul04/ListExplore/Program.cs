@@ -41,13 +41,11 @@ namespace ListExplore
 				//Преглед на List
 				if ( _userinput.ToLower().Contains ("show") )
 				{
-					Console.Write ( "_list: " );
+					Console.Write ( "Списък: " );
 
-					for (int i = 0; i < _list.Count; i++ )
+					foreach (int value in _list)
 					{
-						Console.Write ( _list[i] );
-
-						if ( i != _list.Count - 1 ) Console.Write ( ", " );
+						Console.Write ( value.ToString () + ", ");
 					}
 
 					Console.WriteLine ("\n");
