@@ -52,6 +52,7 @@ namespace Modul04
 
 			//Пример с do ... while
 			int i = 0;
+
 			do{
 				//Код
 				Console.WriteLine (

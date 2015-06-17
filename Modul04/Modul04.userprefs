@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="Modul04\Modul04.csproj">
+﻿<Properties StartupItem="ListExplore\ListExplore.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Modul04\Program.cs">
     <Files>
