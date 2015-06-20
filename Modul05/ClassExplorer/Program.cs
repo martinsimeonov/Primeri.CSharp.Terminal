@@ -8,16 +8,24 @@ namespace ClassExplorer
 
 		public person ()
 		{
+			simpleString = "Промяна на променлива при инициализиране.";
 		}
+
+
 
 	}
 
 
 	class MainClass
 	{
+		
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			//Дефиниране на клас
+			person _person = new person();
+
+			//Достъпване на клас
+			Console.WriteLine ( _person.simpleString );
 		}
 	}
 }
