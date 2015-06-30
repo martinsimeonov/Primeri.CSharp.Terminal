@@ -1,0 +1,4 @@
+C:\aula\primeri.csharp.terminal\Modul05\ClassExplorer\bin\Release\ClassExplorer.exe
+C:\aula\primeri.csharp.terminal\Modul05\ClassExplorer\bin\Release\ClassExplorer.pdb
+C:\aula\primeri.csharp.terminal\Modul05\ClassExplorer\obj\x86\Release\ClassExplorer.exe
+C:\aula\primeri.csharp.terminal\Modul05\ClassExplorer\obj\x86\Release\ClassExplorer.pdb

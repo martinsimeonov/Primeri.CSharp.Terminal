@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;		//???
 
 namespace ClassExplorer
 {
@@ -73,6 +74,8 @@ namespace ClassExplorer
 		
 		public static void Main (string[] args)
 		{
+
+			List <person> userDB = new List<person> ();	//????
 			Console.Write ("Потребител: ");		string _user = Console.ReadLine ();
 			Console.Write ("Парола: ");			string _pass = Console.ReadLine ();
 
